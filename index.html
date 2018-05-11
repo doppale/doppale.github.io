@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nebulas Profile</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light main-nav">
+        <div>
+            <a class="navbar-brand main-logo" href="index.html">
+                <img src="img/logo.png" alt="">
+                <span>@Profile</span>
+            </a>
+        </div>
+        <div class="desc">Find wallet owner!</div>
+
+        <form id="search-form" class="form-inline" class="ml-auto mr-auto">
+            <div class="input-group">
+                <input id="search" class="form-control form-control-sm search" type="search" placeholder="enter wallet" aria-label="Search" required>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <a class="btn btn-outline-secondary add ml-3" data-toggle="tooltip" data-placement="top" title="Create or edit your profile"
+                    href="create.html">
+                    <i class="fas fa-plus"></i>
+                </a>
+            </div>
+        </form>
+    </nav>
+    <div id="fountainG" class="loader">
+        <div id="fountainG_1" class="fountainG"></div>
+        <div id="fountainG_2" class="fountainG"></div>
+        <div id="fountainG_3" class="fountainG"></div>
+        <div id="fountainG_4" class="fountainG"></div>
+        <div id="fountainG_5" class="fountainG"></div>
+        <div id="fountainG_6" class="fountainG"></div>
+        <div id="fountainG_7" class="fountainG"></div>
+        <div id="fountainG_8" class="fountainG"></div>
+    </div>
+    <div class="container pt-4 hide">
+        <div class="d-flex justify-content-center page-body">
+            <div class="user-card ">
+                <div class="user-card__header d-flex justify-content-between">
+                    <span>added: 09.05.2018</span>
+                    <span>updated: 12.06.2018</span>
+                </div>
+                <div class="user-card__body">
+                    <div class="user-card__main-info d-flex">
+                        <div class="d-flex flex-column align-items-center left">
+                            <img src="img/no_avatar.png" style="width: 100px; height: 100px;">
+                            <div class="d-flex flex-wrap justify-content-center align-items-center views">
+                                <span class="count">2</span>
+                                <span class="text">Views</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="name">Alexey Ivanov</div>
+                                <div class="wallet">
+                                    n1VrkzNLshwC2MXXxqVE578fT58w23i4rAg
+                                </div>
+                            </div>
+                            <div class="about">I'm simple Russian man.</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="user-card__contacts">
+                            <h5>Contacts</h5>
+                            <a class="contact-link mail" href="" alt="email" data-toggle="tooltip" data-placement="top" title="Email" target="_blank"></a>
+                            <a class="contact-link skype" href="" alt="skype" data-toggle="tooltip" data-placement="top" title="Skype" target="_blank"></a>
+                            <a class="contact-link telegram" href="" alt="telegram" data-toggle="tooltip" data-placement="top" title="Telegram" target="_blank"></a>
+                            <a class="contact-link slack" href="" alt="slack" data-toggle="tooltip" data-placement="top" title="Slack" target="_blank"></a>
+                            <a class="contact-link whatsapp" href="" alt="whatsapp" data-toggle="tooltip" data-placement="top" title="Whatsapp" target="_blank"></a>
+                        </div>
+                        <div class="user-card__social">
+                            <h5>Social</h5>
+                            <a class="contact-link facebook" href="" alt="facebook" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"></a>
+                            <a class="contact-link instagram" href="" alt="instagram" data-toggle="tooltip" data-placement="top" title="Instagram" target="_blank"></a>
+                            <a class="contact-link twitter" href="" alt="twitter" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"></a>
+                            <a class="contact-link vk" href="" alt="vk" data-toggle="tooltip" data-placement="top" title="VK" target="_blank"></a>
+                            <a class="contact-link youtube" href="" alt="youtube" data-toggle="tooltip" data-placement="top" title="Youtube" target="_blank"></a>
+                            <a class="contact-link twitch" href="" alt="twitch" data-toggle="tooltip" data-placement="top" title="Twitch" target="_blank"></a>
+                            <a class="contact-link reddit" href="" alt="reddit" data-toggle="tooltip" data-placement="top" title="Reddit" target="_blank"></a>
+                            <a class="contact-link linkedin" href="" alt="linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn" target="_blank"></a>
+                            <a class="contact-link github" href="" alt="github" data-toggle="tooltip" data-placement="top" title="Github" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d -flex flex-column ml-5">
+                <div class="stats block">
+                    <div class="block-header">
+                        <h5 class="stats-header">Stats</h5>
+                    </div>
+                    <div class="d-flex flex-column align-items-center block-body">
+                        <div class="d-flex align-items-center totalProfiles">
+                            total profiles<span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mostview block">
+                    <div class="block-header">
+                        <h5 class="stats-header">Last registered profiles</h5>
+                    </div>
+                    <div class="block-body">
+                        <ul>
+                            <!-- <li>
+                                <a href>Nikola Shvedko</a href>
+                            </li>
+                            <li>
+                                <a href>Aleksey Ivnov</a href>
+                            </li>
+                            <li>
+                                <a href>Vladimir Putin</a href>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Nebulas Profile © 2018 </span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="js/nebPay.js"></script>
+    <script src="js/contractApi.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bignumber.js/7.0.1/bignumber.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        let api = new ProfileContractApi();
+        window.addEventListener("load", function() {
+            let isExtensionExist = typeof(webExtensionWallet) !== "undefined";
+            if(!isExtensionExist) { 
+                clearLoadingAnimation();               
+                addNoExtensionAlert();              
+            }
+            else {
+                $('[data-toggle="tooltip"]').tooltip();
+                loadBeginData();
+
+                document.querySelector("#search-form").onsubmit = (event) => {
+                    event.preventDefault();
+                    searchWallet();
+                };
+                
+                let lastSearchedWallet = localStorage.getItem("lastSearchWallet");
+                document.querySelector("#search").value = lastSearchedWallet;
+                if(lastSearchedWallet) {
+                    localStorage.setItem("lastSearchWallet", "");                
+                    searchWallet();
+                }
+            }
+        });
+
+    </script>    
+</body>
+
+</html>
